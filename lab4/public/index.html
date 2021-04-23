@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Nodejs</h1>
+    <hr>
+    <h2>LED Control Panel</h2>
+    <form action="/index">
+        <input type="checkbox" name="led1" value="true">LED01
+        <input type="checkbox" name="led2" value="true">LED02 <BR>
+        <input type="checkbox" name="led3" value="true">LED03
+        <input type="checkbox" name="led4" value="true">LED04 <BR>
+        <button type="submit">Submit</button>
+
+        <input type="radio" name="operation" value="on" checked/> ON
+        <input type="radio" name="operation" value="off"/> OFF<BR>
+
+        
+    </form>
+    <hr>
+    <form action="/Frequency" method="get">
+        <h2>LED Switch Frequency</h2>
+        <input type="text" name ="times">
+        <button type="submit">Mode_Shine</button>
+    </form>
+</body>
+
+</html>
